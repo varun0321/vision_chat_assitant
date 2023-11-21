@@ -1,0 +1,24 @@
+git add -A  --- to add all the files at once to the commit stage
+
+git branch -M main [used for changing name of branch - from "master" to "main"
+
+git branch -D new_branch  # delete branch locally
+
+git push origin --delete remoteBranchName  ## delete remote branch
+
+git add index.html  -- to add single file to the commit stage
+git status  -- to find status of files
+git commit  [it will open vim editor for adding comments]
+git commit -m "comments" [simple method for commiting and adding comments]
+git branch new-branch [creating new branch]
+git branch [find name of all the branches]
+git checkout -b branch_name [creates new branch and also shifts the user to that branch directly]
+git checkout [for matching current commit with last commit; any new changes made will be erased]
+git checkout -f [for matching all the files at once, rather than doing one by one]
+git checkout branch2 [for changing to new branch]
+git log [for all the log files, which tells about all the previously run commands]
+git rm [deletes the file]
+git rm --cached [to remove from staging area only]
+git remote add origin "git address" [create a remote repo means our github repo and push our local repo to that remote repo]
+
+git push origin master 
